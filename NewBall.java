@@ -103,6 +103,16 @@ public class NewBall {
         speed = rand.nextInt(30) + 10;
         return speed;
 
+        /**
+         External Citation
+         Date:     21 March 2018
+         Problem:  Couldn't remember how to set min and max value for random using rand.nextInt()
+         Resource:
+         https://stackoverflow.com/questions/20389890/generating-a-random
+         -number-between-1-and-10-java
+         Solution: I used the example code from this post.
+         */
+
     }
 
 

@@ -34,6 +34,15 @@ public class PongAnimator implements Animator {
     private boolean firstBall = true; //to trigger first ball automatically when run
 
     /**
+     External Citation
+     Date:     21 March 2018
+     Problem:  Couldn't figure out how to efficiently store the balls
+     Resource: suggestion by classmate, Jason Twigg
+     Solution: I used an array list so that the balls could be easily added and looped through
+     to be redrawn each tick.
+     */
+
+    /**
      * Interval between animation frames: .03 seconds (i.e., about 33 times
      * per second).
      *
